@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color:white;
+}
+a{text-decoration: none;}
+
+/* nav */
+.navbar-brand{
+  color: #fca311;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.nav-link{
+border: none;
+color: whitesmoke;
+}
+.nav-link:hover{
+  color: #fca311;
+}
+.dropdown-item{
+  font-family: 'Amiri Quran', serif;
+  transition: .3s all linear;
+}
+.dropdown-item:hover{
+background-color: #67656562;
+color: #fca311;
+
+font-size: 1.2em;
+}
+.navbar-expand-lg{
+position: static;
+top: 0px;
+}
+/* container */
+.container-1{
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+/* card */
+.star{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  height: 14vh;
+
+}
+  .form-label{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  .form-label{
+    color:white;
+    font-weight: bold;
+  }
+  .form-control ,.submit{
+    backdrop-filter: blur(2px);
+    background: rgb(255 255 255 / 13%);
+    color:black;
+    border-color: none;
+  }
+  .form-control:focus {
+    color:rgb(0, 0, 0);
+    background-color:transparent;
+    border-color:white;
+    outline: 0;
+    box-shadow:none;
+  }
+  .offcanvas-start{
+    background-image: url(/images/Login12.jpg);
+    background-size: cover;
+  } 
+  /* card-3 */
+  .one-1{
+    text-decoration: line-through;
+  }
+.card-img-top{
+  transition: .5s all linear;
+  opacity: 100%;
+}
+  .card-img-top:hover{
+    transform: scale(.95);
+    cursor:pointer;
+    opacity: 80%;
+  }
+/* img */
+.imgg{
+  background-image: url(/images/portfolio-img8.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  height: 20vh;
+}
+/*  */
+input{
+  appearance: none;
+
+}
+input::before{
+  content:"Offer";
+
+}
+input:checked:before{
+  content:"100 EGP";
+}
+/* input-card-4 */
+.input-4{
+  appearance: none;
+
+}
+.input-4::before{
+  content:"Offer";
+
+}
+.input-4:checked:before{
+  content:"100 EGP";
+}
+/*  */
+.info-11{
+  border: none;
+  
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.info-1{
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.info-1 span{
+ color: red;
+ 
+}
+.info-1 span:nth-child(2){
+  color: #118efc;
+
+}
+/*  */
+.card-text{
+  font-family: 'Courgette', cursive;
+  font-size: 30px;
+  cursor: pointer;
+  color:whitesmoke;
+  opacity: 100%;
+
+  transition: .2s all linear;
+}
+.card-text:hover{
+  opacity: 60%;
+}
+.card-body{
+  background-image: url(/images/services-right-dec.png);
+  cursor: pointer;
+  background-size:cover;
+}
+.card-body-1{
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+.info-0{
+  color: red;
+}
+.inner-header a>h1{
+  font-family: 'Courgette', cursive;
+  color: #f8f9fa;
+}

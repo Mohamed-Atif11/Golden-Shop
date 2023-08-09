@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+body{
+  background-image: linear-gradient(to bottom, white,#86b7fe,rgba(13,110,253,.25));
+}
+
+
+/* nav */
+.navbar-brand{
+  color: #fca311;
+  font-family: 'Patrick Hand', cursive;
+}
+.nav-link{
+border: none;
+cursor:not-allowed;
+color: whitesmoke;
+}
+.btn-outline-warning{
+    border: none;
+}
+.btn-outline-warning:hover{
+    background-color: #fca311;
+}
+.nav-link:hover{
+  color: #fca311;
+}
+.dropdown-item{
+  font-family: 'Amiri Quran', serif;
+  transition: .3s all linear;
+}
+.dropdown-item:hover{
+background-color: #6765657a;
+color: white;
+font-size: 1.2em;
+}
+.navbar-expand-lg{
+position: static;
+top: 0px;
+}
+/*  */
+.order{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;  
+  cursor: pointer;
+  transition: .3s all linear;
+  color: white;
+  transition: .2s all linear;
+  /* color: #fe7f2d;   */  /*لون برتقالي*/
+}
+.order:hover{
+  opacity: 80%;
+}
+/*  */
+/* form */
+.form-1 {
+margin: 4em;  
+}
+.form-label{
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.2em;
+transition: .3s all linear;
+display: flex;
+justify-content: flex-start;
+}
+.form-label:hover{
+color: #fca311;
+cursor: pointer;
+  }
+.form-label{
+  color:white;
+  font-weight: bold;
+}
+.form-control ,.submit{
+  backdrop-filter: blur(2px);
+  background: rgb(255 255 255 / 13%);
+  color:rgb(255, 255, 255);
+  border-color: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.form-control:focus {
+    color:rgb(255, 255, 255);
+    background-color:transparent;
+    border-color:rgb(255, 255, 255);
+    outline: 0;
+    box-shadow:none;
+}
+.Home{
+  cursor: pointer;
+}
+.submit{
+  border: 1px solid;
+}
+/* icon - Suggestions */
+.fa-facebook ,.fa-whatsapp{
+  font-size: 20px;
+}
+
+/*  */
+.btn-danger{
+  border-radius: 20px;
+}
