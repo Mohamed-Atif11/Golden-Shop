@@ -9,7 +9,7 @@ a{text-decoration: none;}
   color: #fca311;
   font-family: 'Patrick Hand', cursive;
 }
-.navbar-toggler{
+.navbar-toggler:focus{
   box-shadow:none;
 }
 .nav-link{
