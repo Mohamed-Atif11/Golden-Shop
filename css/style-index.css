@@ -174,7 +174,7 @@ background-size: cover;
   color:white;
 }
 .card-img-1{
-  background-image: url(/img/mohamed\ atif1.jpg);
+  background-image: url(/img/3tofa.jpg);
   background-size: cover;
   height: 100vh;
   transition: .3s all linear;
@@ -195,7 +195,7 @@ background-size: cover;
   cursor:pointer;
 }
 .card-img-4{
-  background-image: url(/img/jo.jpeg);
+  background-image: url(/img/jo.jpg);
   background-size: cover;
   height: 100vh;
   transition: .3s all linear;
@@ -204,7 +204,6 @@ background-size: cover;
 .card-img-top:hover {
 border-radius: 50%;
 box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-
 }
 .m1{
   border-radius: 20px;
