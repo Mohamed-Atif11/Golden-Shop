@@ -307,6 +307,9 @@ box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
   #contact form {
     padding-top: 30px;
   }
+  .navbar-toggler{
+    background-color:#fca311;
+  }
 }
 
 @media screen and (max-width: 767px) {
